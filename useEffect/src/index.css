@@ -1,0 +1,43 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+.stars {
+  margin-top: 5px;
+}
+
+.fa-star {
+  color: #ccc;
+}
+
+.fa-star.active {
+  color: orange;
+}
